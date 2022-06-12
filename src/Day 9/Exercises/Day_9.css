@@ -1,0 +1,58 @@
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #20070b;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 40%);
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    position: sticky;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navtitle {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: monospace;
+}
+
+.btnLogin {
+    display: flex;
+    padding: 0.8rem;
+    align-items: center;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    background-color: #4345d3;
+    color: white;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.imgTitle {
+    height: 50px;
+    width: 50px;
+}
+
+.c2Wraper {
+    display: flex;
+    flex-direction: row;
+    min-height: 8rem;
+    background-color: white;
+}

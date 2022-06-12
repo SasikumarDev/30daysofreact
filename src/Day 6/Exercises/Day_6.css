@@ -1,0 +1,19 @@
+.NumberWrapper {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.divCountryName {
+    flex: 0 1 20%;
+}
+
+.chartDiv {
+    background-color: var(--div-chart-bg);
+    width: 50%;
+}   
+
+[data-theme='dark'] .chartDiv {
+    background-color: white !important;
+}
