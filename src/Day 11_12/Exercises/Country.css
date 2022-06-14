@@ -1,0 +1,107 @@
+.wrapperCC {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.divCounCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 40%);
+}
+
+.tweetDivW {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    border: 2px solid #fffeff;
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+    flex-wrap: wrap;
+    background: white;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+.textArea {
+    width: 75%;
+    height: 200px;
+    resize: none;
+    border: 0px;
+    box-shadow: 0px 2px 2px 2px rgb(0 0 0 / 20%);
+    outline: none;
+}
+
+.inputControls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.btnPost {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    font-family: monospace;
+    font-weight: bold;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    background-color: #113a7f;
+    color: white;
+}
+
+.divPostsCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.postBody {
+    color: rgb(135, 150, 162);
+    word-break: break-all;
+}
+
+.divPostItem {
+    display: flex;
+    padding: 0.3rem;
+    border: 1px solid #e6ecf0;
+    flex-direction: column;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.postFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.btntweet {
+    display: flex;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #92d0f0;
+    font-size: 22px;
+    cursor: pointer;
+}

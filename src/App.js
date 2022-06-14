@@ -10,6 +10,7 @@ import NavBar from './Day 9/Exercises/Day_9';
 import ChangebgByTime from './Day 9/Exercises/Exercises';
 import EventsComponent from './Day 11_12/Exercises/Day_11';
 import UserdetailComponent from './Day 11_12/Exercises/Day_12';
+import CountryComponent, { TweetComponent } from './Day 11_12/Exercises/Country';
 
 const headerStyle = {
   backgroundColor: '#61DBFB',
@@ -137,6 +138,8 @@ class App extends Component {
         <h3>Day 11 - Events and Forms</h3>
         <EventsComponent />
         <UserdetailComponent />
+        <CountryComponent />
+        <TweetComponent />
         <Footer />
       </div>
     );
