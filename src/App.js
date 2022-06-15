@@ -11,6 +11,8 @@ import ChangebgByTime from './Day 9/Exercises/Exercises';
 import EventsComponent from './Day 11_12/Exercises/Day_11';
 import UserdetailComponent from './Day 11_12/Exercises/Day_12';
 import CountryComponent, { TweetComponent } from './Day 11_12/Exercises/Country';
+import ReactRoute from './Day 17/Exercise/ReactRoute';
+import { BrowserRouter} from 'react-router-dom';
 
 const headerStyle = {
   backgroundColor: '#61DBFB',
@@ -107,41 +109,46 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" >
-        <Headers />
-        {main}
-        <Exercise1 />
-        <Exercise2 />
-        <Exercise3 />
-        <hr />
-        <h3>Day 4</h3>
-        <ColorComponent />
-        <SkillSets />
-        <hr />
-        <h3>Day 5 - Component and Props</h3>
-        <ComponentsProps data={users} />
-        <SubscribeForm data={Data} />
-        <hr />
-        <h3>Day 6 - Map,List and Key</h3>
-        <NumberGenerator />
-        <ColorGeneratorL />
-        <PopulationGenerator />
-        <hr />
-        <h3>Day 7,8 - Class Component,Props and State</h3>
-        <UserProfile changeBg={this.changeBackgroundcolor} user={this.state.user} styles={this.state.style} />
-        <RandomGenerator users={users} />
-        <hr />
-        <h3>Day 9 - Conditional Rendering</h3>
-        <NavBar logged={this.state.isLogged} />
-        <ChangebgByTime />
-        <hr />
-        <h3>Day 11 - Events and Forms</h3>
-        <EventsComponent />
-        <UserdetailComponent />
-        <CountryComponent />
-        <TweetComponent />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className="App" >
+          <Headers />
+          {main}
+          <Exercise1 />
+          <Exercise2 />
+          <Exercise3 />
+          <hr />
+          <h3>Day 4</h3>
+          <ColorComponent />
+          <SkillSets />
+          <hr />
+          <h3>Day 5 - Component and Props</h3>
+          <ComponentsProps data={users} />
+          <SubscribeForm data={Data} />
+          <hr />
+          <h3>Day 6 - Map,List and Key</h3>
+          <NumberGenerator />
+          <ColorGeneratorL />
+          <PopulationGenerator />
+          <hr />
+          <h3>Day 7,8 - Class Component,Props and State</h3>
+          <UserProfile changeBg={this.changeBackgroundcolor} user={this.state.user} styles={this.state.style} />
+          <RandomGenerator users={users} />
+          <hr />
+          <h3>Day 9 - Conditional Rendering</h3>
+          <NavBar logged={this.state.isLogged} />
+          <ChangebgByTime />
+          <hr />
+          <h3>Day 11 - Events and Forms</h3>
+          <EventsComponent />
+          <UserdetailComponent />
+          <CountryComponent />
+          <TweetComponent />
+          <hr />
+          <h3>Day 17 - Router,Project</h3>
+          <ReactRoute />
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 

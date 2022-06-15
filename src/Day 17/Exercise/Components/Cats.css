@@ -1,0 +1,73 @@
+.catsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background: white;
+}
+
+.catsDivcol {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.catCard {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 20%);
+    background-color: white;
+    width: 100%;
+}
+
+.catImg {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+
+.catImg:hover {
+    transform: scale(1.5);
+}
+
+.catDetails {
+    font-size: clamp(1rem, 1.5rem, 3rem);
+    font-weight: bolder;
+    padding: 0.5rem;
+    font-family: monospace;
+}
+
+.catImagediv {
+    display: flex;
+    overflow: hidden;
+}
+
+.btnWraper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btnCountry {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    transition: background 1s ease;
+    font-family: monospace;
+}
+
+.btnCountry:hover {
+    background: black;
+    color: white;
+}
