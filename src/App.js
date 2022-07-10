@@ -12,7 +12,9 @@ import EventsComponent from './Day 11_12/Exercises/Day_11';
 import UserdetailComponent from './Day 11_12/Exercises/Day_12';
 import CountryComponent, { TweetComponent } from './Day 11_12/Exercises/Country';
 import ReactRoute from './Day 17/Exercise/ReactRoute';
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Test from './Day 21/Exercise/Hooks';
+import NavBarContext from './Day 21/Exercise/NavBarContext';
 
 const headerStyle = {
   backgroundColor: '#61DBFB',
@@ -144,8 +146,12 @@ class App extends Component {
           <CountryComponent />
           <TweetComponent />
           <hr />
-          <h3>Day 17 - Router,Project</h3>
+          <h3>Day 17,19,20 - Router,Project</h3>
           <ReactRoute />
+          <hr />
+          <h3>Day 21 - Hooks</h3>
+          <Test />
+          <NavBarContext />
           <Footer />
         </div>
       </BrowserRouter>
