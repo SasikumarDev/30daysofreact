@@ -38,7 +38,7 @@ export default function Country() {
     if (country.length > 0) {
         data = (
             country.map((d, i) =>
-                <CountryCard data={d} ind={i} />
+                <CountryCard key={i} data={d} ind={i} />
             )
         )
     } else {

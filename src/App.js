@@ -15,6 +15,7 @@ import ReactRoute from './Day 17/Exercise/ReactRoute';
 import { BrowserRouter } from 'react-router-dom';
 import Test from './Day 21/Exercise/Hooks';
 import NavBarContext from './Day 21/Exercise/NavBarContext';
+import HexColorGen from './Day 26/Exercise/HexColorGen';
 
 const headerStyle = {
   backgroundColor: '#61DBFB',
@@ -152,6 +153,9 @@ class App extends Component {
           <h3>Day 21 - Hooks</h3>
           <Test />
           <NavBarContext />
+          <hr />
+          <h3>Hex Color Generator</h3>
+          <HexColorGen />
           <Footer />
         </div>
       </BrowserRouter>
